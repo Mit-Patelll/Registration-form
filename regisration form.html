@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+    <title>TechnoHack Edutech Registration Form</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TechnoHack Edutech Registration Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="course">Course Interested In:</label>
+                <select id="course" name="course" required>
+                    <option value="">Select a course</option>
+                    <option value="python">Python Programming</option>
+                    <option value="java">Java Programming</option>
+                    <option value="webdev">Web Development</option>
+                </select>
+            </div>
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+</html>
